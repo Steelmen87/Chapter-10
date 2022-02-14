@@ -3,10 +3,13 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Star from "./Star/Star";
+
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Star/>
   </React.StrictMode>,
   document.getElementById('root')
 );
